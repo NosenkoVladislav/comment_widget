@@ -1,0 +1,107 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+	.comment-widget {
+		margin: 10px auto;
+		width: 500px;
+	}
+
+	.widget-element {
+		width: 100%;
+		border-radius: 5px;
+		padding: 0;
+		box-sizing: border-box;
+		outline: none;
+	}
+
+	.name-space {
+		border: 2px solid #bfbfbf;
+		min-height: 25px;
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.text-space {
+		border: 2px solid #2ba1ff;
+		min-height: 100px;
+		font-size: 16px;
+		padding: 10px 5px;
+		margin: 15px 0;
+		resize: none;
+	}
+
+	.add-comment {
+		height: 30px;
+		border: none;
+		border-radius: 5px;
+		background-color: #2ba1ff;
+		color: #fff;
+		font-size: 18px;
+	}
+
+	.add-comment:hover {
+		cursor: pointer;
+	}
+
+	.add-comment:active {
+		box-shadow: inset -1px 4px 16px 0px rgba(0,0,0,0.5);
+	}
+
+	.comment-wrapper {
+		width: 100%;
+		margin: 10px 0;
+		padding: 5px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid gray;
+		position: relative;
+	}
+
+	.author-name {
+		font-size: 20px;
+		font-weight: bold;
+		color: #2ba1ff;
+		margin: 5px 0;
+	}
+
+	.comment-text {
+		text-align: left;
+		min-height: 30px;
+	}
+	
+	.control {
+		position: absolute;
+		top: 15px;
+		font-size: 18px;
+	}
+
+	.control:hover {
+		cursor: pointer;
+	}
+
+	.edit{
+		right: 40px;
+	}
+
+	.delete {
+		right: 10px;
+	}
+
+	.date {
+		font-size: 12px;
+		position: absolute;
+		right: 0;
+		color: grey;
+		font-weight: bold;
+	}
+
+	.hiden {
+		display: none;
+	}
+	
+
